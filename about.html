@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1652F0">
+  <title>About · Coinbase Support (Demo)</title>
+  <meta name="description" content="About this demo Coinbase-style support site.">
+  <link rel="preconnect" href="https://app.chaport.com">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/img/coinbase-logo.svg" alt="Coinbase logo" class="logo">
+      <span>Coinbase Support</span>
+    </a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn">Contact</a>
+      <a href="dashboard.html" class="pill">Dashboard</a>
+    </nav>
+  </header>
+  <main class="page">
+    <h1>About “Coinbase Support” (Demo)</h1>
+    <p>
+      This is a demonstration support-center UI inspired by Coinbase’s visual style. 
+      It is <strong>not</strong> affiliated with or endorsed by Coinbase. Replace branding and text with your own materials.
+    </p>
+    <h2>What’s included</h2>
+    <ul>
+      <li>Clean, responsive layout</li>
+      <li>Search box and topic tiles</li>
+      <li>FAQ / Guides section</li>
+      <li>Contact form + Chaport live chat</li>
+      <li>Mock dashboard with metrics and chart</li>
+    </ul>
+    <h2>Branding note</h2>
+    <p>
+      The logo here is a neutral placeholder. If you have the rights to use Coinbase’s logo, replace 
+      <code>assets/img/coinbase-logo.svg</code> with the official asset.
+    </p>
+  </main>
+  <footer class="site-footer">
+    <p>© 2025 Coinbase Support (Demo). This is a demo UI, not an official Coinbase property.</p>
+  </footer>
+  <script src="assets/js/main.js"></script>
+  <!-- Chaport Live Chat (replace APP_ID_HERE with your Chaport appId) -->
+<script type="text/javascript">
+  (function(w,d,v3){
+    w.chaportConfig = { appId: 'APP_ID_HERE' };
+    if(w.chaport) return;
+    v3=w.chaport={}; v3._q=[]; v3._l={};
+    v3.q=function(){ v3._q.push(arguments) }; v3.on=function(e,fn){ v3._l[e]=fn };
+    var s=d.createElement('script'); s.type='text/javascript'; s.async=true;
+    s.src='https://app.chaport.com/javascripts/insert.js';
+    var ss=d.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);
+  })(window, document);
+</script>
+</body>
+</html>
